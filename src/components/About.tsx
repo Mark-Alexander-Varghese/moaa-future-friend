@@ -54,12 +54,16 @@ const About = () => {
           </div>
 
           <div className="relative">
-            <div className="relative rounded-2xl overflow-hidden border border-gray-700 shadow-2xl">
-              <img 
-                src="/lovable-uploads/f34493b1-a716-4aeb-bc81-4ddb43946bbc.png" 
-                alt="MOAA AI Companion Interface"
-                className="w-full h-auto"
-              />
+            <div className="relative rounded-2xl overflow-hidden border border-gray-700 shadow-2xl bg-gradient-to-br from-purple-900/30 to-cyan-900/30 p-8">
+              <div className="flex items-center justify-center h-64">
+                <div className="text-center">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-r from-purple-500 to-cyan-500 mx-auto mb-4 flex items-center justify-center">
+                    <span className="text-2xl">🤖</span>
+                  </div>
+                  <h3 className="text-xl font-semibold text-white mb-2">MOAA Interface</h3>
+                  <p className="text-gray-400">Your AI companion awaits</p>
+                </div>
+              </div>
               <div className="absolute inset-0 bg-gradient-to-t from-purple-900/20 to-transparent"></div>
             </div>
             

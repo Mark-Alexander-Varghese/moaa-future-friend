@@ -1,73 +1,88 @@
-# Welcome to your Lovable project
+# MOAA - Your AI Companion for Life
 
-## Project info
+## About MOAA
 
-**URL**: https://lovable.dev/projects/5cdb6208-0bd8-466b-9c9d-8a7ee1d2b7cf
+MOAA is the next generation of AI companions, designed to understand, support, and grow with you through every moment of your journey. Experience the future of human-AI relationships with our all-in-one digital companion.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+- **Intelligent Conversations**: Advanced AI that understands context and emotions
+- **Personal Growth**: AI that learns and adapts to your personality and needs
+- **24/7 Support**: Always available when you need someone to talk to
+- **Privacy First**: Your conversations and data are protected with enterprise-grade security
+- **Cross-Platform**: Access MOAA from any device, anywhere
 
-**Use Lovable**
+## Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5cdb6208-0bd8-466b-9c9d-8a7ee1d2b7cf) and start prompting.
+### Prerequisites
 
-Changes made via Lovable will be committed automatically to this repo.
+- Node.js (v18 or higher)
+- npm or yarn
 
-**Use your preferred IDE**
+### Installation
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Clone the repository:
+```bash
+git clone <YOUR_REPOSITORY_URL>
+cd moaa-future-friend
+```
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+2. Install dependencies:
+```bash
+npm install
+```
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+4. Open your browser and navigate to `http://localhost:8080`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Available Scripts
 
-**Use GitHub Codespaces**
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Technology Stack
 
-## What technologies are used for this project?
+This project is built with modern web technologies:
 
-This project is built with:
+- **Frontend**: React 18 with TypeScript
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS
+- **UI Components**: shadcn/ui
+- **Routing**: React Router DOM
+- **State Management**: TanStack Query
+- **Icons**: Lucide React
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Project Structure
 
-## How can I deploy this project?
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── hooks/         # Custom React hooks
+├── lib/           # Utility functions
+└── ui/            # shadcn/ui components
+```
 
-Simply open [Lovable](https://lovable.dev/projects/5cdb6208-0bd8-466b-9c9d-8a7ee1d2b7cf) and click on Share -> Publish.
+## Contributing
 
-## Can I connect a custom domain to my Lovable project?
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Yes, you can!
+## License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Contact
+
+- Website: [moaa.ai](https://moaa.ai)
+- Twitter: [@moaa_ai](https://twitter.com/moaa_ai)
+- Email: hello@moaa.ai
